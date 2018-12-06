@@ -3,13 +3,14 @@
 int main (void)
 {
 
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
+setvbuf(stdout, NULL, _IONBF, 0);
+setvbuf(stderr, NULL, _IONBF, 0);
 
-	unsigned int number ;
+unsigned int number ;
 
-	printf("Please enter number of rows  \n");
-	scanf("%d" , &number);
+printf("Please enter number of rows  \n");
+scanf("%d" , &number);
+	
 for (int rows =1 ; number >= rows ; rows++)
 {
 for (int span = number-1 ; span >= rows ; span-- )
