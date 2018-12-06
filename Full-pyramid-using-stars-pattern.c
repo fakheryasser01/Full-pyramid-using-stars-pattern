@@ -25,21 +25,6 @@ printf("\n");
 }
 
 
-//
-//	 for (int x= 0 ; rows >= x ; x++ )
-//	 {
-//
-//		 		 for (int i= x ; rows>= i ; i++ )
-//		 			 {
-//		 				 printf(" ");
-//		 			 }
-//
-//		 for (int k =1  ; k <= (2*x)-1 ; k++ )
-//					 {
-//						printf("*");
-//					 }
-//		 printf("\n");
-//	 }
 
 
 return 0;
